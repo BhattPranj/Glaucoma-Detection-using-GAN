@@ -1,10 +1,8 @@
 # Glaucoma Detection Model Using GAN and Traditional Augmentation Methods
 Glaucoma is a condition in which fluid pressure rises within the eye. Without treatment, it can damage the optic nerve and lead to vision loss. The early detection of glaucoma minimizes the risk of vision loss. This model synthesizes highly realistic fundus images with GAN (Generative Adversarial Networks) to obtain precision in detecting glaucoma.
 
-Using image augmentation techniques to generate images to replicate the existing data of retinal images and increasing the dataset. This enhanced dataset was used to train the classification model to distinguish in glaucomic and non-glaucomic retinal images.
-
 ## Project details
-Fundus images are used to diagnose glaucoma. This project implements image augmentation techniques and GAN on a datset of 650 images solving the class imbalance between the glaucomatous and non-glaucomatous images in the dataset. This enhanced dataset is used to train a classification model to distinguish glaucomic and non-glaucomic  fundus images.
+Fundus images are used to diagnose glaucoma. This project implements image augmentation techniques and GAN on a datset of 650 images solving the class imbalance between the glaucomatous and non-glaucomatous images in the dataset. This enhanced dataset is used to train a classification model to predict if the image is Glaucomatous or not.
 
 * **Image Augmentation :** Traditional Augmentation techniques such as Shifting, scaling, cropping, padding, rotation, translation etc are applied to the dataset.
   
