@@ -4,6 +4,9 @@ Glaucoma is a condition in which fluid pressure rises within the eye. Without tr
 ## Project details
 Fundus images are used to diagnose glaucoma. This project implements image augmentation techniques and GAN on a dataset of 650 images solving the class imbalance between the glaucomatous and non-glaucomatous images in the dataset. This enhanced dataset is used to train a classification model to predict if the image is Glaucomatous or not.
 
+### Dataset
+The dataset can be found from [here](https://www.kaggle.com/sshikamaru/glaucoma-detection)
+
 **Image Augmentation :**
 * Traditional Augmentation techniques such as shifting, scaling, cropping, padding, rotation, translation etc are applied to the dataset
   
