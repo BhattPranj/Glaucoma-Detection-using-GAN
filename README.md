@@ -1,17 +1,25 @@
-# Retinal Image Synthesis Using GAN and Traditional Augmentation Methods
+# Glaucoma Detection Model Using GAN and Traditional Augmentation Methods
+Glaucoma is a condition in which fluid pressure rises within the eye. Without treatment, it can damage the optic nerve and lead to vision loss. The early detection of glaucoma minimizes the risk of vision loss. This model synthesizes highly realistic fundus images with GAN (Generative Adversarial Networks) to obtain precision in detecting glaucoma.
 
-Using image augmentation techniques to generate images to replicate the existing data of retinal images and increasing the dataset. This extended dataset was used to train the classification model to distinguish in glaucomic and non-glaucomic retinal images.
+Using image augmentation techniques to generate images to replicate the existing data of retinal images and increasing the dataset. This enhanced dataset was used to train the classification model to distinguish in glaucomic and non-glaucomic retinal images.
 
 ## Project details
+Fundus images are used to diagnose glaucoma. This project implements image augmentation techniques and GAN on a datset of 650 images solving the class imbalance between the glaucomatous and non-glaucomatous images in the dataset. This enhanced dataset is used to train a classification model to distinguish glaucomic and non-glaucomic  fundus images.
 
-Retinal images are used to diagnose eye disease like glaucoma. This project uses image augmentation technique, GAN to learn how glaucomic rentianl images look and replicate images to increase the size of dataset. This was necessary  because of the class imbalance between the glaucomatous and non-glaucomatous images in the dataset. Images with glaucoma were very less which wouldnt train the classification model very well. In this case Image augmentation helps replicate the target image and generates fake data which can be used to train the classigfication model.
-
+* **Image Augmentation :** Traditional Augmentation techniques such as Shifting, scaling, cropping, padding, rotation, translation etc are applied to the dataset.
+  
 This project implements two machine learning models as mentioned above.
-* **Image Augmentation :** The chosen modell for image augmentation is GAN. Generative Adversarial Networks (GAN) with its ability to understand and recreate the visual content proved to give great results in replicating glaucomatous retinal images. The section below shows how the model learns and tries to copy the target image. To read more about how GAN works please go here.
+*   Generative Adversarial Networks (GAN)
+*   With its ability to understand and recreate the visual content proved to give great results in replicating glaucomatous retinal images.
+*   This GAN-based model generated high-resolution, new, synthetic instances of data that can pass for real data. 
+*   The section below shows how the model learns and tries to copy the target image. To read more about how GAN works please go here.
 
-* **Classification Model :** A CNN (Convolution Neural Network) based model was used to classify the images. The model used is the VGG-16 model which gave the most accurate results.
+* **Classification Model :**
+* ResNet (Residual Network) and VGG-16 CNN models were used to classify the images.  VGG-16 model gave the most accurate results.
 
-In this projec the weights of the trained model were saved. A locally hosted website can then be used to upload an image to test the model. The website is created using flask and it can be used to upload the test image and when clicked on the 'test' button outputs if the patient is glaucomatous or not.
+In this project the weights of the trained model were saved. 
+A locally hosted website can then be used to upload an image to test the model. 
+The website is created using flask and it can be used to upload the test image and when clicked on the 'test' button outputs if the patient is glaucomatous or not.
 
 
 ## Instructions
