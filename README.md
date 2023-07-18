@@ -15,7 +15,7 @@ This project implements two machine learning models as mentioned above.
 **Generative Adversarial Networks (GAN):**
 *   With its ability to understand and recreate the visual content proved to give great results in replicating glaucomatous retinal images
 *   This GAN-based model generated high-resolution, new, synthetic instances of data that can pass for real data 
-*   To read more about how GAN works please go [here](https://en.wikipedia.org/wiki/Generative_adversarial_network)   
+*   To learn more about GAN please go [here](https://en.wikipedia.org/wiki/Generative_adversarial_network)   
 
 **Classification Model :**
 * ResNet (Residual Network) and VGG-16 CNN models were used to classify the images
