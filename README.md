@@ -8,7 +8,7 @@ Fundus images are used to diagnose glaucoma. This project implements image augme
 The dataset can be found from [here](https://www.kaggle.com/sshikamaru/glaucoma-detection)
 
 **Image Augmentation :**
-* Traditional Augmentation techniques such as shifting, scaling, cropping, padding, rotation, translation etc are applied to the dataset
+* Traditional Augmentation techniques such as shifting, scaling, cropping, rotation, translation etc are applied to the dataset
   
 This project implements two machine learning models as mentioned above.
 
@@ -33,7 +33,7 @@ To implement the program yourself, follow the steps mentioned bellow.
 
 1. Clone the entire repository to your local computer.
 2. Install all the requirements as mentioned in the requirements.txt file.
-3. If you want to re-train the model, run the 'GAN_model.ipynb'
+3. If you want to re-train the model, run the 'gan.ipynb'
 4. Or you can run the app.py file to run the locally hosted website.
 5. On the website, signup using your credentials, and then you can upload your image to check if the rentinal image shows signs of Glaucoma.
 
