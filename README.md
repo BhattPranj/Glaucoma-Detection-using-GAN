@@ -19,8 +19,9 @@ This project implements two machine learning models as mentioned above.
 
 **Classification Model :**
 * ResNet (Residual Network) CNN models were used to classify the images
-* DenseNet V2 model gave the accuracy of 85%
-* Inception ResNet V2 model gave the most accuracy of 67%
+* Inception ResNet V2 model had an accuracy of 67%
+* DenseNet V2 model gave an accuracy of 85%
+
 
 In this project the weights of the trained model were saved. 
 A locally hosted website can then be used to upload an image to test the model. 
