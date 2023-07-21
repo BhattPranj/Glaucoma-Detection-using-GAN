@@ -18,9 +18,9 @@ This project implements two machine learning models as mentioned above.
 *   To learn more about GAN please go [here](https://developers.google.com/machine-learning/gan)
 
 **Classification Model :**
-* ResNet (Residual Network) and VGG-16 CNN models were used to classify the images
-* VGG-16 model gave the accuracy of 60%
-* ResNet model gave the most accuracy of 96.28%
+* ResNet (Residual Network) CNN models were used to classify the images
+* DenseNet V2 model gave the accuracy of 85%
+* Inception ResNet V2 model gave the most accuracy of 67%
 
 In this project the weights of the trained model were saved. 
 A locally hosted website can then be used to upload an image to test the model. 
