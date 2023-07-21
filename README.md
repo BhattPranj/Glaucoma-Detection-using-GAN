@@ -47,14 +47,4 @@ The following show the results of implementing the models as described above.
 
 ![Image of the GAN testing](/GAN_test.png)
 
-The image shows that the model starts from a grey image and then as it learns, it adds features into the image.
-
-* The images below show the website hosted to test the classifiation mmodel.
-
-![Image of the classification model](/test_1.png)
-![Image of the classification model](/test_2.png)
-![Image of the classification model](/test_3.png)
-
-
-
 This project was made as a part of the college project.
