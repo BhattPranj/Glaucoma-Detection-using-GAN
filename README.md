@@ -16,28 +16,13 @@ This project implements two machine learning models as mentioned above.
 *   With its ability to understand and recreate the visual content proved to give great results in replicating glaucomatous retinal images
 *   This GAN-based model generated high-resolution, new, synthetic instances of data that can pass for real data 
 *   To learn more about GAN please go [here](https://developers.google.com/machine-learning/gan)
+*   
+The GAN generated images are combined to the original dataset and given to a classification model
 
 **Classification Model :**
 * ResNet (Residual Network) CNN models were used to classify the images
 * Inception ResNet V2 model had an accuracy of 67%
 * DenseNet V2 model gave an accuracy of 85%
-
-
-In this project the weights of the trained model were saved. 
-A locally hosted website can then be used to upload an image to test the model. 
-The website is created using flask and it can be used to upload the test image and when clicked on the 'test' button outputs if the patient is glaucomatous or not.
-
-
-## Instructions
-
-To implement the program yourself, follow the steps mentioned bellow.
-
-1. Clone the entire repository to your local computer.
-2. Install all the requirements as mentioned in the requirements.txt file.
-3. If you want to re-train the model, run the 'gan.ipynb'
-4. Or you can run the app.py file to run the locally hosted website.
-5. On the website, signup using your credentials, and then you can upload your image to check if the rentinal image shows signs of Glaucoma.
-
 
 ## Implementation Results
 
